@@ -41,7 +41,8 @@ public class ErrorValidationsTest extends BaseTest {
 		CartPage cartpage = productCatalog.goToCartPage();
 		Boolean match = cartpage.VerifyProductDisplay("ZARA COAT 333");
 		Assert.assertFalse(match);
-
+		System.out.println("Gitdemo code changes1");
+		System.out.println("Gitdemo code changes2");
 	}
 
 }
